@@ -1,0 +1,22 @@
+{
+  "name": "ilya/asm",
+  "description": "Тестовое задание для компании ASM",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ilya",
+      "email": "kazakovif@gmail.com.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    },
+    "files": ["config/database.php"]
+  }
+}
